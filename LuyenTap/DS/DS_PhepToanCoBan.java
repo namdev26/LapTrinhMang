@@ -21,6 +21,7 @@ public class DS_PhepToanCoBan {
         out.flush();
         int a = in.readInt(), b = in.readInt();
         int tong = a + b, tich = a * b, ucln = UCLN(a, b), bcnn = a * b / UCLN(a, b);
+        
         out.writeInt(ucln);
         out.writeInt(bcnn);
         out.writeInt(tong);
