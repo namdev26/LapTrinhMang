@@ -20,8 +20,6 @@ public class DS_PhepToanCoBan {
         out.writeUTF(code);
         out.flush();
         int a = in.readInt(), b = in.readInt();
-        int a = 2;
-        int b = 5;
         int tong = a + b, tich = a * b, ucln = UCLN(a, b), bcnn = a * b / UCLN(a, b);
         out.writeInt(ucln);
         out.writeInt(bcnn);
