@@ -1,0 +1,16 @@
+package TCP;
+import java.io.Serializable;
+
+public class Product implements Serializable {
+    private int id;
+    private String name;
+    private double price;
+    private int discount;
+    private static final long serialVersionUID = 20231107L;
+
+    public int getId() { return id; }
+    public String getName() { return name; }
+    public double getPrice() { return price; }
+    public int getDiscount() { return discount; }
+    public void setDiscount(int discount) { this.discount = discount; }
+}
