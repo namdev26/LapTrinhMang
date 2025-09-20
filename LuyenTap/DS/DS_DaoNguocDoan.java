@@ -1,3 +1,4 @@
+package DS;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -43,6 +44,7 @@ public class DS_DaoNguocDoan {
             }
 
             String res = sb.toString();
+            System.out.println(res);
             out.writeUTF(res);
             out.flush();;
 
